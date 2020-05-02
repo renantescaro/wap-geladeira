@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/view/estiloGerais.css"></link>
     <title>Compras</title>
 </head>
 <body>
@@ -35,7 +36,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button onclick="confirmarQtd()" type="button" style="background-color: coral" class="btn btn-primary">Confirmar</button>
+                    <button onclick="confirmarQtd()" type="button" style="background-color: coral" class="btn">Confirmar</button>
                 </div>
             </div>
         </div>
@@ -50,17 +51,17 @@
             <h4 style="color: coral">Selecione o local de compra</h4>
             <br>
         </div>
-        <button onclick="abrirQuantidade('cesta')" class="btn btn-primary" style="background-color: coral; width: 49%; height: 150px">
+        <button onclick="abrirQuantidade('cesta')" class="btn" style="background-color: coral; width: 49%; height: 150px">
             <img src="/public/imagens/cesta.png" style="width: 60%">
         </button>
-        <button onclick="abrirQuantidade('geladeira')" class="btn btn-primary" style="background-color: coral; width: 49%; height: 150px">
+        <button onclick="abrirQuantidade('geladeira')" class="btn" style="background-color: coral; width: 49%; height: 150px">
             <img src="/public/imagens/geladeira.png" style="width: 60%">
         </button>
         <label id="lblQtdCesta" class="lbl-quantidade">0</label>
         <label id="lblQtdGeladeira" class="lbl-quantidade">0</label>
     </div>
     <div style="margin-top: 30px; text-align: center">
-        <button onclick="finalizarCompra()" style="width: 40%; height: 80px; background-color: coral" class="btn btn-primary">Confirmar</button>
+        <button onclick="finalizarCompra()" style="width: 40%; height: 80px; background-color: coral" class="btn">Confirmar</button>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>

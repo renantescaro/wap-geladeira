@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/view/estiloGerais.css"></link>
 </head>
 <body>
-    <div class="form-group" style="padding-left: 5px; padding-right: 5px">
+    <div class="form-group" style="padding-left: 5px; padding-right: 5px; margin-top:100px">
         <form action="/verificar-login" method="post">
             <div style="text-align: center">
                 <img src="/public/imagens/logo.png" style="width: 90%">

@@ -91,3 +91,7 @@ function erroConfirmarVenda(){
 function redirecionarPaginaFinalizacao(){
     window.location.href = '/finalizar'
 }
+
+function comprarNovamente(){
+    window.location.href = '/'
+}
