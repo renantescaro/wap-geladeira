@@ -7,6 +7,6 @@
 - Página de controle para um administrador
 
 ## Código
-- Sistema de rotas
-- PDO
-- Render de páginas
+- [Sistema de rotas](libs/rotasPaginas/Rota.php )
+- [PDO](modal/Banco.php)
+- [Render de páginas](libs/renderizadorPaginas/Render.php)
